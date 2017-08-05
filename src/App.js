@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import DottedBox from './dottedBox';
+import Box from './box';
 
 class App extends Component {
 
@@ -7,6 +8,7 @@ class App extends Component {
     return (
       <div>
         <DottedBox />
+        <Box />
       </div>
     );
   }

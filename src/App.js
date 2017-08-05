@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import DottedBox from './dottedBox';
 import Box from './box';
+import DashedBox from './dashedBox';
 
 class App extends Component {
 
@@ -9,6 +10,7 @@ class App extends Component {
       <div>
         <DottedBox />
         <Box />
+        <DashedBox />
       </div>
     );
   }
